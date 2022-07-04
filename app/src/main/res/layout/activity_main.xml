@@ -59,16 +59,17 @@
         />
 
     <TextView
+        android:id="@+id/tvSelectedDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:text="29.6.2022"
         android:textColor="@color/purple_200"
         android:textSize="20dp"
         android:textStyle="bold"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="44dp"
-        tools:layout_editor_absoluteY="33dp"
-        android:layout_marginTop="16dp"/>
+        tools:layout_editor_absoluteY="33dp" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -80,4 +81,15 @@
         tools:layout_editor_absoluteX="44dp"
         tools:layout_editor_absoluteY="33dp"
         android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/yourlife"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="33dp"
+        android:layout_marginTop="16dp"
+        android:textSize="25dp"/>
+
 </LinearLayout>
